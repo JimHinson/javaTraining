@@ -5,6 +5,22 @@ package com.automationUniversity;
  import java.io.IOException;
  import java.io.InputStreamReader;
 
+/**
+ * Hi, team,
+ *
+ * In preparation for our class next Tuesday, could you please review the CodeCademy class (https://www.codecademy.com/learn/learn-java?coursePageWithSignup=true) ? It would be great if you could post any questions here about the main concepts in the course:
+ * Inheritance and Polymorphism
+ * Class Instances
+ * If-Then-Else and Loops
+ * Strings
+ *
+ * This will allow us to jump into more fun concepts like:
+ * 1. What's the parent of
+ *
+ * Class Outline:
+ * 1. Review:
+ *   a.
+ */
 public class TodoApp {
     public static ToDoAbstract Container = new Container("me");
 
@@ -46,7 +62,7 @@ public class TodoApp {
                 }
                 int id = Integer.parseInt(args[1]);
                 String title = args[2];
-                tree.findAndAddTodo(new item(title), id);
+                tree.findAndAddTodo(new Item(title), id);
                 System.out.println("Done adding item: " + title + " to id: " + id);
             } else if ("delete".equals(firstArg)) {
                 // delete "id"

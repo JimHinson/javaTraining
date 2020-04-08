@@ -17,4 +17,8 @@ public abstract class ToDoAbstract implements Todo, Serializable {
                 ", id: " + id +
                 ", title: " + title + "}";
     }
+
+    public Container getValue() {
+        return new Container(this.title);
+    }
 }
