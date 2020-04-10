@@ -5,7 +5,7 @@ package com.AutomationUniversity;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Container extends ToDoAbstract {
+public class Container  {
     public Map<Integer, ToDoAbstract> todos = new HashMap<>();
 
     public Container(String title){
