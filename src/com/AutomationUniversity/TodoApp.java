@@ -1,4 +1,4 @@
-package com.automationUniversity;
+package com.AutomationUniversity;
 
  import java.io.BufferedReader;
  import java.text.ParseException;

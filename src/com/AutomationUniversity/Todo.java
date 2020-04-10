@@ -1,4 +1,4 @@
-package com.automationUniversity;
+package com.AutomationUniversity;
 
 public interface Todo {
 //    public Container getValue()

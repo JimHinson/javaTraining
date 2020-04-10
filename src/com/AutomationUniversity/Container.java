@@ -1,4 +1,4 @@
-package com.automationUniversity;
+package com.AutomationUniversity;
 
 import java.util.HashMap;
 import java.util.Map;

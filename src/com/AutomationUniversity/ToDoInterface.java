@@ -1,4 +1,4 @@
-package com.automationUniversity;
+package com.AutomationUniversity;
 
 //public class ToDoInterface {
 //}
