@@ -1,9 +1,11 @@
-package com.automationUniversity;
+package com.AutomationUniversity;
+
+import com.AutomationUniversity.ToDo;
 
 import java.io.Serializable;
 import java.util.UUID;
 
-public abstract class ToDoAbstract implements Todo, Serializable {
+public abstract class ToDoAbstract implements ToDo, Serializable {
     protected int id;
     protected String title;
 

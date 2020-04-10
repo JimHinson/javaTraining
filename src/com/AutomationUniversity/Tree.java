@@ -23,7 +23,7 @@ public class Tree implements Serializable {
         
         public Tree findAndAddTodo(ToDoAbstract todo, int id){
             if (id == 0){
-                root.add(todo);
+                root.Add(todo);
             } else {
                 root.findAndAddContainer(todo, id);
             }
