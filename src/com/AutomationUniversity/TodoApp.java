@@ -22,9 +22,9 @@ package com.AutomationUniversity;
  *   a.
  */
 public class TodoApp {
-    public static ToDoAbstract Container = new Container("me");
+    public static ToDoAbstract Container = new Container("");
 
-    public static void main(String[] ignored) throws ParseException, IOException, ClassNotFoundException {
+    public static void main(String[] ignored) throws ParseException, IOException, ClassNotFoundException, AutomationUniversityException {
         System.out.println("-------------------");
         System.out.println("This is a simple and easy to use todo app.");
         System.out.println("Type 'help' to know how to use this app.");
@@ -63,7 +63,9 @@ public class TodoApp {
                 int id = Integer.parseInt(args[1]);
                 String title = args[2];
                 tree.findAndAddTodo(new Item(title), id);
-                System.out.println("Done adding item: " + title + " to id: " + id);
+                AutomationUniversityException aue = (AutomationUniversityException)new Exception("Why doesn't this work");
+                throw aue;
+//                System.out.println("Done adding item: " + title + " to id: " + id);
             } else if ("delete".equals(firstArg)) {
                 // delete "id"
                 if (args.length < 2) {
