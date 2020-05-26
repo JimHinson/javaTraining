@@ -6,23 +6,18 @@ package com.AutomationUniversity;
  import java.io.InputStreamReader;
 
 /**
- * Hi, team,
- *
- * In preparation for our class next Tuesday, could you please review the CodeCademy class (https://www.codecademy.com/learn/learn-java?coursePageWithSignup=true) ? It would be great if you could post any questions here about the main concepts in the course:
- * Inheritance and Polymorphism
- * Class Instances
- * If-Then-Else and Loops
- * Strings
- *
- * This will allow us to jump into more fun concepts like:
- * 1. What's the parent of
- *
- * Class Outline:
- * 1. Review:
- *   a.
+ * Simple application which:
+ * Enables the user to enter an item to remember
+ * Store that item in a list
+ * Create a container which stores items
+ * Enables the user to to delete an item
+ * Enables the user to to store item list in a file for future reference and recall that file
+ * Enables the user to overwrite items
+ * Shows a list of items
+ * Finding and fixing bugs is an exercise left to you
  */
 public class TodoApp {
-    public static ToDoAbstract Container = new Container("me");
+    public static ToDoAbstract Container = new Container("MainContainer");
 
     public static void main(String[] ignored) throws ParseException, IOException, ClassNotFoundException {
         System.out.println("-------------------");
